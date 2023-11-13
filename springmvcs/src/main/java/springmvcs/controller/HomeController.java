@@ -21,7 +21,7 @@ public class HomeController {
 		return "home";
 	}
 	
-	//about Model object to sent data from controller to view
+	//about Model object to sent data from controller to  view
 	@RequestMapping("/about")
 	public String about(Model model)
 	{
